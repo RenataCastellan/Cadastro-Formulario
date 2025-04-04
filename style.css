@@ -1,0 +1,58 @@
+.erro {
+    border: 2px solid red;
+    background-color: #f8d7da;
+}
+.sucesso {
+    border: 2px solid green;
+    background-color: #d4edda;
+}
+.campo-invalido {
+    color: red;
+    font-size: 12px;
+}
+.campo-validado {
+    color: green;
+    font-size: 12px;
+}
+h1{
+    font-size: 16px;
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #d4edda;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; 
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+input[type="submit"]:active {
+    background-color: #1e7e34;
+    transform: scale(0.98);
+}
